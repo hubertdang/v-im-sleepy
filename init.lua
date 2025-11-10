@@ -14,6 +14,9 @@ vim.opt.relativenumber = true
 -- Enable mouse support for all modes
 vim.opt.mouse = "a"
 
+-- Vertical padding
+vim.opt.scrolloff = 8
+
 -- ===================================
 -- INDENTATION: tabs/spaces detection
 -- ===================================
