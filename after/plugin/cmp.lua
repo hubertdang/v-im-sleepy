@@ -9,8 +9,8 @@ cmp.setup({
     end,
   },
   mapping = {
-    ['j'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
-    ['k'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
+    ['<C-j>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
+    ['<C-k>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
     ['<CR>'] = cmp.mapping.confirm({ select = true }),
   },
   sources = {
