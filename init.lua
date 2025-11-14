@@ -17,6 +17,9 @@ vim.opt.mouse = "a"
 -- Vertical padding
 vim.opt.scrolloff = 8
 
+-- Disable swap files
+vim.opt.swapfile = false
+
 -- ===================================
 -- INDENTATION: tabs/spaces detection
 -- ===================================
